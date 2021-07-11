@@ -1,0 +1,9 @@
+GET localhost:8080/current-time?timezone=CET&format=timestamp
+#Accept: application/json
+#Accept: text/plain
+Accept: application/json,text/plain
+Connection: keep
+
+
+
+
