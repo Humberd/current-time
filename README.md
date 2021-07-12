@@ -1,17 +1,11 @@
 
+## TODO
+
 ### Worker API 
 - [x] Current Time API
 - [ ] Authorization
 - [ ] Rate limiter
 - [ ] Tests
-
-### Documentation App
-- [ ] Worker API documentation
-
-### Landing Page App 
-- [ ] Home Page
-- [ ] Pricing Page
-- [ ] Playground page
 
 ### Developer Dashboard 
 - [ ] Register Page
@@ -26,19 +20,32 @@
 - [ ] API usage Page (chart)
 - [ ] Settings Page
 
-
--- Developer Dashboard API --
+### Developer Dashboard API
 - [ ] Register API
 - [ ] Login API
-- [ ] Payment API
-	- [ ] List
-    - [ ] Subscribe
-    - [ ] Unsubscribe
+- [ ] Subscription API
+	- [ ] List current
+	- [ ] Subscribe
+	- [ ] Unsubscribe
 - [ ] Token API
-	- [ ] List
+	- [ ] List current
 	- [ ] Regenerate
 	- [ ] Delete
-- [ ]
+- [ ] User API
+	- [ ] List current
+	- [ ] Delete
+- [ ] Stats API
+	- [ ] List Worker API usage
+
+### Landing Page App
+- [ ] Home Page
+- [ ] Pricing Page
+- [ ] Playground page
+
+### Documentation App
+- [ ] Worker API documentation
+
+
 
 
 [Frontend]
