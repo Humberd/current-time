@@ -41,6 +41,8 @@
 - [ ] Home Page
 - [ ] Pricing Page
 - [ ] Playground page
+- [ ] Multi-language
+- [ ] SEO
 
 ### Documentation App
 - [ ] Worker API documentation
