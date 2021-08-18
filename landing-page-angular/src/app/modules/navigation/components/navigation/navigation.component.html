@@ -1,13 +1,18 @@
 <nav class="nav-container">
-  <div>
-    <a href="/">CurrentTime</a>
-  </div>
-  <div>
-    <a href="#">Docs</a>
-    <a routerLink="/pricing">Pricing</a>
-  </div>
-  <div>
-    <a href="#">BUY</a>
-    <a href="#">Dashboard</a>
-  </div>
+  <mat-toolbar>
+    <div class="toolbar">
+      <div>
+        <a mat-button routerLink="/">CurrentTime</a>
+      </div>
+      <div>
+        <a mat-button href="#" routerLinkActive="mat-accent">Docs</a>
+        <a mat-button routerLink="/pricing" routerLinkActive="mat-accent">Pricing</a>
+        <a mat-button routerLink="/playground" routerLinkActive="mat-accent">Sandbox</a>
+      </div>
+      <div>
+        <a mat-raised-button color="primary" href="#">BUY</a>
+        <a mat-button color="primary" href="#">Dashboard</a>
+      </div>
+    </div>
+  </mat-toolbar>
 </nav>

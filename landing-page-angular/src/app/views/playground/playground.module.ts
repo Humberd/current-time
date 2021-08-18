@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { PlaygroundRoutingModule } from './playground-routing.module';
 import { PlaygroundComponent } from './playground.component';
+import { NavigationModule } from '../../modules/navigation/navigation.module';
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import { PlaygroundComponent } from './playground.component';
   ],
   imports: [
     CommonModule,
-    PlaygroundRoutingModule
+    PlaygroundRoutingModule,
+    NavigationModule
   ]
 })
 export class PlaygroundModule { }

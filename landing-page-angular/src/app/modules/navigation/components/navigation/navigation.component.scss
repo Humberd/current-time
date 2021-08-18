@@ -1,8 +1,16 @@
+@import "src/mixins";
+
 :host {
   display: block;
 }
 
 .nav-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  .toolbar {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+
+    width: var(--content-max-width);
+  }
+
 }
